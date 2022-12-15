@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dist": "mkdir -p dist && cp -R node_modules src server.js ... dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
